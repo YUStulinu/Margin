@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Margin.App/Margin.App.csproj" />
+    <Project Path="src/Margin.Cli/Margin.Cli.csproj" />
+    <Project Path="src/Margin.Core/Margin.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Margin.Tests/Margin.Tests.csproj" />
+  </Folder>
+</Solution>

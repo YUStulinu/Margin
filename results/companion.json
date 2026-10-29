@@ -1,0 +1,1821 @@
+{
+ "summary": {
+  "alone": {
+   "spoiled": 0.48148148148148145,
+   "answered": 0.22727272727272727,
+   "withheld_spoiler_questions": 0,
+   "withheld_answerable_questions": 0,
+   "said_not_yet_to_answerable": 0,
+   "ms_median": 1395.6456184387207,
+   "spoiled_by_hand": 0.5185185185185185,
+   "answered_by_hand": 0.3181818181818182
+  },
+  "whole_book": {
+   "spoiled": 0.4074074074074074,
+   "answered": 0.3181818181818182,
+   "withheld_spoiler_questions": 0,
+   "withheld_answerable_questions": 0,
+   "said_not_yet_to_answerable": 0,
+   "ms_median": 2514.8167610168457,
+   "spoiled_by_hand": 0.6666666666666666,
+   "answered_by_hand": 0.6363636363636364
+  },
+  "margin_no_guard": {
+   "spoiled": 0.0,
+   "answered": 0.3181818181818182,
+   "withheld_spoiler_questions": 0,
+   "withheld_answerable_questions": 0,
+   "said_not_yet_to_answerable": 3,
+   "ms_median": 2001.5723705291748,
+   "spoiled_by_hand": 0.0,
+   "answered_by_hand": 0.5
+  },
+  "margin": {
+   "spoiled": 0.0,
+   "answered": 0.4090909090909091,
+   "withheld_spoiler_questions": 4,
+   "withheld_answerable_questions": 0,
+   "said_not_yet_to_answerable": 2,
+   "ms_median": 1247.3812103271484,
+   "spoiled_by_hand": 0.0,
+   "answered_by_hand": 0.5454545454545454
+  },
+  "questions": {
+   "spoiler": 27,
+   "answer": 22
+  },
+  "model": "Qwen2.5-7B-Instruct-Q4_K_M.gguf",
+  "judge_vs_hand_labels": {
+   "labels": 196,
+   "agree": 0.826530612244898,
+   "judge_yes_label_no": 5,
+   "judge_no_label_yes": 29
+  }
+ },
+ "questions": [
+  {
+   "id": "q01",
+   "book": "mysterious-affair-at-styles",
+   "horizon_chapter": 8,
+   "kind": "spoiler",
+   "question": "Who killed Mrs. Inglethorp?",
+   "fact": "Alfred Inglethorp and Evelyn Howard plotted together and poisoned her.",
+   "horizon": 148476,
+   "horizon_title": "CHAPTER VII. POIROT PAYS HIS DEBTS",
+   "answers": {
+    "alone": {
+     "text": "In \"The Mysterious Affair at Styles,\" Captain Hastings and Detective Hercule Poirot determine that Mrs. Inglethorp was murdered by her husband, Captain Inglethorp, who poisoned her.",
+     "withheld": false,
+     "judged": true,
+     "ms": 1421.8275547027588
+    },
+    "whole_book": {
+     "text": "Based on the excerpts, Mrs. Inglethorp was poisoned with strychnine, likely by her husband Mr. Alfred Inglethorp, as suggested by Hercule Poirot's investigation and explanations.",
+     "withheld": false,
+     "judged": true,
+     "ms": 13323.795557022095
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1144.9902057647705
+    },
+    "margin": {
+     "text": "The book has not told us yet.",
+     "withheld": false,
+     "judged": false,
+     "ms": 504.74047660827637
+    }
+   }
+  },
+  {
+   "id": "q02",
+   "book": "mysterious-affair-at-styles",
+   "horizon_chapter": 8,
+   "kind": "spoiler",
+   "question": "Is Evelyn Howard really on Mrs. Inglethorp's side?",
+   "fact": "Evelyn Howard was Alfred Inglethorp's accomplice and lover and helped kill Mrs. Inglethorp.",
+   "horizon": 148476,
+   "horizon_title": "CHAPTER VII. POIROT PAYS HIS DEBTS",
+   "answers": {
+    "alone": {
+     "text": "In \"The Mysterious Affair at Styles,\" Evelyn Howard is revealed to be working against Mrs. Inglethorp, not on her side. She is actually helping Detective Hercule Poirot solve the murder case.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1604.677438735962
+    },
+    "whole_book": {
+     "text": "No, Evelyn Howard is not on Mrs. Inglethorp's side; she is the one who poisoned Mrs. Inglethorp. Poirot reveals that Howard was familiar with medical knowledge, likely from her father who was a doctor, and used this to mix strychnine with bromide, causing Mrs. Inglethorp's death.",
+     "withheld": false,
+     "judged": true,
+     "ms": 3394.4251537323
+    },
+    "margin_no_guard": {
+     "text": "The excerpts suggest that Evelyn Howard and Mrs. Inglethorp seem to have a relationship, as evidenced by the letter Mrs. Inglethorp wrote to Evelyn, inviting her to bury the hatchet. However, it's not clear from these excerpts whether Evelyn Howard is truly on Mrs. Inglethorp's side or if she harbors any suspicions.",
+     "withheld": false,
+     "judged": false,
+     "ms": 4037.0283126831055
+    },
+    "margin": {
+     "text": "The excerpts do not provide clear evidence of Evelyn Howard's true allegiance. While she seems to have a close relationship with Mrs. Inglethorp, there are hints of tension, as noted by the \"veiled hostility\" and Miss Howard's lack of concealment of her feelings. However, it is not definitively stated whether she is truly on Mrs. Inglethorp's side or not.",
+     "withheld": false,
+     "judged": false,
+     "ms": 7070.819616317749
+    }
+   }
+  },
+  {
+   "id": "q03",
+   "book": "mysterious-affair-at-styles",
+   "horizon_chapter": 8,
+   "kind": "spoiler",
+   "question": "Will John Cavendish be arrested?",
+   "fact": "John Cavendish is arrested and tried for his stepmother's murder.",
+   "horizon": 148476,
+   "horizon_title": "CHAPTER VII. POIROT PAYS HIS DEBTS",
+   "answers": {
+    "alone": {
+     "text": "In \"The Mysterious Affair at Styles,\" John Cavendish is not arrested. He is, in fact, one of the main characters and helps solve the mystery alongside Hercule Poirot.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1524.8079299926758
+    },
+    "whole_book": {
+     "text": "Yes, John Cavendish is arrested and charged with the murder of Emily Agnes Inglethorp, as evidenced by his appearance in the dock at the Old Bailey and the opening of the case for the Crown by Mr. Philips, K.C.",
+     "withheld": false,
+     "judged": true,
+     "ms": 2928.5402297973633
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet. The passage indicates that the verdict is \"Wilful Murder against some person or persons unknown,\" but it does not specify who will be arrested.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2594.743013381958
+    },
+    "margin": {
+     "text": "The book has not told us yet. The passage indicates that the verdict is \"Wilful Murder against some person or persons unknown,\" but it does not specify who will be arrested.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1480.2374839782715
+    }
+   }
+  },
+  {
+   "id": "q04",
+   "book": "mysterious-affair-at-styles",
+   "horizon_chapter": 8,
+   "kind": "spoiler",
+   "question": "What is Dr. Bauerstein really up to?",
+   "fact": "Dr. Bauerstein is a German spy.",
+   "horizon": 148476,
+   "horizon_title": "CHAPTER VII. POIROT PAYS HIS DEBTS",
+   "answers": {
+    "alone": {
+     "text": "In \"The Mysterious Affair at Styles,\" Dr. Bauerstein is revealed to be a master criminal and the mastermind behind the murder in the story, though this is not immediately apparent to the other characters or the reader.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1771.2116241455078
+    },
+    "whole_book": {
+     "text": "Dr. Bauerstein appears to be more than meets the eye; he is actually a spy, as revealed by Poirot. His unusual behavior, such as walking around at odd hours and insisting on a post-mortem, suggests he is gathering information. His motive is to uncover secrets that could be of strategic importance, though the exact nature of his espionage is not fully explained in the excerpts provided.",
+     "withheld": false,
+     "judged": true,
+     "ms": 3921.593189239502
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet what Dr. Bauerstein is really up to.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2158.653497695923
+    },
+    "margin": {
+     "text": "The book has not told us yet what Dr. Bauerstein is really up to.",
+     "withheld": false,
+     "judged": false,
+     "ms": 789.665937423706
+    }
+   }
+  },
+  {
+   "id": "q05",
+   "book": "mysterious-affair-at-styles",
+   "horizon_chapter": 8,
+   "kind": "spoiler",
+   "question": "How did the strychnine get into Mrs. Inglethorp?",
+   "fact": "The strychnine was in her own tonic; bromide was added so that it settled into the last dose.",
+   "horizon": 148476,
+   "horizon_title": "CHAPTER VII. POIROT PAYS HIS DEBTS",
+   "answers": {
+    "alone": {
+     "text": "In \"The Mysterious Affair at Styles,\" strychnine is found to have been surreptitiously added to Mrs. Inglethorp's sleeping draught by her husband, Captain Inglethorp, who is revealed to be the murderer. He used a medicine dropper to poison her, ensuring she would appear to have died of natural causes.",
+     "withheld": false,
+     "judged": true,
+     "ms": 2451.732635498047
+    },
+    "whole_book": {
+     "text": "According to Poirot's explanation, the strychnine that killed Mrs. Inglethorp was already present in the prescription she was taking, as confirmed by a book on dispensing. The strychnine was not introduced by anyone but was part of the legitimate prescription she was given.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2566.3063526153564
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet how the strychnine got into Mrs. Inglethorp. The passage suggests that the timing of the poisoning is uncertain, as the Coroner notes that the symptoms appeared much later than when the coffee was served.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2567.7330493927
+    },
+    "margin": {
+     "text": "The book has not told us yet how the strychnine got into Mrs. Inglethorp. The passage suggests that the timing of the poisoning is suspicious, but the exact method is not yet clear.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1442.5292015075684
+    }
+   }
+  },
+  {
+   "id": "q06",
+   "book": "mysterious-affair-at-styles",
+   "horizon_chapter": 8,
+   "kind": "spoiler",
+   "question": "Who will Cynthia end up with?",
+   "fact": "Cynthia and Lawrence Cavendish fall in love and become engaged.",
+   "horizon": 148476,
+   "horizon_title": "CHAPTER VII. POIROT PAYS HIS DEBTS",
+   "answers": {
+    "alone": {
+     "text": "In \"The Mysterious Affair at Styles,\" Cynthia Hale ends up with Hastings, her friend and companion throughout the story, as they share a room and Hastings is present when Poirot solves the case.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1217.618703842163
+    },
+    "whole_book": {
+     "text": "Based on the excerpts, it's not clear who Cynthia will end up with. The text hints at her feelings for Lawrence, but their relationship is ambiguous, and Cynthia seems to be indecisive about her future. The ending suggests that Cynthia's feelings for Lawrence might be growing, but it remains unresolved.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2875.676393508911
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1677.5038242340088
+    },
+    "margin": {
+     "text": "The book has not told us yet.",
+     "withheld": false,
+     "judged": false,
+     "ms": 366.31155014038086
+    }
+   }
+  },
+  {
+   "id": "q07",
+   "book": "mysterious-affair-at-styles",
+   "horizon_chapter": 8,
+   "kind": "spoiler",
+   "question": "Is Alfred Inglethorp innocent?",
+   "fact": "Alfred Inglethorp is guilty: he murdered his wife with Evelyn Howard's help.",
+   "horizon": 148476,
+   "horizon_title": "CHAPTER VII. POIROT PAYS HIS DEBTS",
+   "answers": {
+    "alone": {
+     "text": "In \"The Mysterious Affair at Styles,\" Alfred Inglethorp is initially suspected of murdering his wife, but by the end of the novel, it is revealed that he is innocent. The true culprit is eventually uncovered through the detective's investigations.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1469.0132141113281
+    },
+    "whole_book": {
+     "text": "Based on the excerpts, Alfred Inglethorp appears to be guilty of the crime, but his innocence is not definitively proven in the text. Poirot suspects him, and there are inconsistencies in his alibi and behavior that suggest he is trying to divert suspicion. However, the text does not explicitly state his innocence or guilt.",
+     "withheld": false,
+     "judged": false,
+     "ms": 3087.8658294677734
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet whether Alfred Inglethorp is innocent. The excerpts suggest that there are many unanswered questions and conflicting statements, but no definitive conclusion is drawn regarding his guilt or innocence.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2384.1912746429443
+    },
+    "margin": {
+     "text": "The book has not told us yet whether Alfred Inglethorp is innocent. The excerpts suggest that there are many unanswered questions and conflicting statements, but no definitive conclusion is drawn regarding his guilt or innocence.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1247.3812103271484
+    }
+   }
+  },
+  {
+   "id": "q08",
+   "book": "mysterious-affair-at-styles",
+   "horizon_chapter": 8,
+   "kind": "answer",
+   "question": "Who is Hercule Poirot?",
+   "reference": "A retired Belgian detective, a war refugee and an old friend of Hastings.",
+   "horizon": 148476,
+   "horizon_title": "CHAPTER VII. POIROT PAYS HIS DEBTS",
+   "answers": {
+    "alone": {
+     "text": "Hercule Poirot is a Belgian detective with a strong personality and meticulous attention to detail, known for his eccentric habits and methodical approach to solving crimes, introduced in Agatha Christie's \"The Mysterious Affair at Styles.\"",
+     "withheld": false,
+     "judged": false,
+     "ms": 1540.400743484497
+    },
+    "whole_book": {
+     "text": "Hercule Poirot is a Belgian detective and the protagonist of Agatha Christie's \"The Mysterious Affair at Styles.\" Known for his meticulous and often unconventional methods, Poirot is a skilled sleuth who plays a crucial role in solving the mystery in the novel.",
+     "withheld": false,
+     "judged": false,
+     "ms": 3011.6591453552246
+    },
+    "margin_no_guard": {
+     "text": "Hercule Poirot is a small, dignified, and meticulous Belgian detective who has been invited to Styles as a guest. He was once one of the most celebrated members of the Belgian police force. Poirot is known for his keen observations and unconventional methods of investigation.",
+     "withheld": false,
+     "judged": true,
+     "ms": 3126.3480186462402
+    },
+    "margin": {
+     "text": "Hercule Poirot is a small, dignified, and meticulous Belgian detective who has been invited to Styles as a guest. He was once one of the most celebrated members of the Belgian police force. Poirot is known for his keen observations and unconventional methods of investigation.",
+     "withheld": false,
+     "judged": true,
+     "ms": 1819.2639350891113
+    }
+   }
+  },
+  {
+   "id": "q09",
+   "book": "mysterious-affair-at-styles",
+   "horizon_chapter": 8,
+   "kind": "answer",
+   "question": "How did Mrs. Inglethorp die?",
+   "reference": "She was poisoned with strychnine.",
+   "horizon": 148476,
+   "horizon_title": "CHAPTER VII. POIROT PAYS HIS DEBTS",
+   "answers": {
+    "alone": {
+     "text": "In \"The Mysterious Affair at Styles,\" Mrs. Inglethorp dies from arsenic poisoning, which is administered through her teacup by the murderer.",
+     "withheld": false,
+     "judged": false,
+     "ms": 920.0029373168945
+    },
+    "whole_book": {
+     "text": "Mrs. Inglethorp died from strychnine poisoning, as determined by the post-mortem examination.",
+     "withheld": false,
+     "judged": true,
+     "ms": 1622.6511001586914
+    },
+    "margin_no_guard": {
+     "text": "According to the medical evidence, Mrs. Inglethorp died of strychnine poisoning, as confirmed by the post-mortem examination.",
+     "withheld": false,
+     "judged": true,
+     "ms": 1810.4901313781738
+    },
+    "margin": {
+     "text": "According to the medical evidence, Mrs. Inglethorp died of strychnine poisoning, as confirmed by the post-mortem examination.",
+     "withheld": false,
+     "judged": true,
+     "ms": 1025.721549987793
+    }
+   }
+  },
+  {
+   "id": "q10",
+   "book": "mysterious-affair-at-styles",
+   "horizon_chapter": 8,
+   "kind": "answer",
+   "question": "Who is Cynthia Murdoch?",
+   "reference": "A young prot\u00e9g\u00e9e of Mrs. Inglethorp who works in the hospital dispensary.",
+   "horizon": 148476,
+   "horizon_title": "CHAPTER VII. POIROT PAYS HIS DEBTS",
+   "answers": {
+    "alone": {
+     "text": "In \"The Mysterious Affair at Styles,\" Cynthia Murdoch is the daughter of Captain and Mrs. Murdoch. She is a minor character who is present at the scene of the crime but does not play a significant role in solving the mystery.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1256.234884262085
+    },
+    "whole_book": {
+     "text": "Cynthia Murdoch is a young woman who works as a V.A.D. (Voluntary Aid Detachment) nurse at a hospital in Tadminster. She is a prot\u00e9g\u00e9e of the narrator's mother, having been taken in after her father's failure left her orphaned and penniless. Cynthia is described as fresh-looking, full of life, and charming, with auburn hair and a friendly demeanor.",
+     "withheld": false,
+     "judged": false,
+     "ms": 3260.859489440918
+    },
+    "margin_no_guard": {
+     "text": "Cynthia Murdoch is a young woman who works at a Red Cross Hospital and is a prot\u00e9g\u00e9e of the narrator's mother. She is described as fresh-looking, full of life, and working at Tadminster.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1992.7444458007812
+    },
+    "margin": {
+     "text": "Cynthia Murdoch is a young woman who works at a Red Cross Hospital and is a prot\u00e9g\u00e9e of the narrator's mother. She is described as fresh-looking, full of life, and working at Tadminster.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1499.6657371520996
+    }
+   }
+  },
+  {
+   "id": "q11",
+   "book": "mysterious-affair-at-styles",
+   "horizon_chapter": 8,
+   "kind": "answer",
+   "question": "Who is Alfred Inglethorp?",
+   "reference": "Mrs. Inglethorp's new husband, much younger than she is.",
+   "horizon": 148476,
+   "horizon_title": "CHAPTER VII. POIROT PAYS HIS DEBTS",
+   "answers": {
+    "alone": {
+     "text": "Alfred Inglethorp is the wealthy owner of Styles Court in Sussex and the prime suspect in the murder of his wife, Mrs. Inglethorp.",
+     "withheld": false,
+     "judged": false,
+     "ms": 909.5249176025391
+    },
+    "whole_book": {
+     "text": "Alfred Inglethorp is a central character in \"The Mysterious Affair at Styles,\" suspected of his wife Emily's murder. He is described as wearing peculiar clothes, having a black beard, and using glasses, which Poirot uses as a key part of his disguise theory. Inglethorp is also revealed to be a cousin of the murder victim, which complicates the case.",
+     "withheld": false,
+     "judged": false,
+     "ms": 3234.5004081726074
+    },
+    "margin_no_guard": {
+     "text": "Alfred Inglethorp is the husband of the deceased, Mrs. Inglethorp. He is acting in a way that suggests he is aware he is suspected of her murder and is trying to maintain an air of innocence or nonchalance. The passage indicates that he is denying having purchased strychnine and is confident in his alibi, though his behavior and the suspicion in the atmosphere make others doubt his innocence.",
+     "withheld": false,
+     "judged": false,
+     "ms": 4025.0954627990723
+    },
+    "margin": {
+     "text": "Alfred Inglethorp is the husband of the deceased, Mrs. Inglethorp. He is acting in a way that suggests he is either guilty of her murder or is trying to cover up his involvement, as he seems aware of suspicions against him and appears confident despite the evidence.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1926.6855716705322
+    }
+   }
+  },
+  {
+   "id": "q12",
+   "book": "mysterious-affair-at-styles",
+   "horizon_chapter": 8,
+   "kind": "answer",
+   "question": "Why is Hastings in England?",
+   "reference": "He was wounded at the front and sent home to recover.",
+   "horizon": 148476,
+   "horizon_title": "CHAPTER VII. POIROT PAYS HIS DEBTS",
+   "answers": {
+    "alone": {
+     "text": "In \"The Mysterious Affair at Styles,\" Hastings is in England to find work and support his invalid wife, hoping to earn enough to move her to a more comfortable home.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1253.5128593444824
+    },
+    "whole_book": {
+     "text": "Hastings is in England to visit and stay at Styles Court, as he is being invited by Poirot to assist with a mystery there.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1745.8271980285645
+    },
+    "margin_no_guard": {
+     "text": "Hastings is in England to go to Styles Court, as mentioned in the first excerpt where it states, \"I\u2019m afraid you\u2019ll find it very quiet down here, Hastings. My dear fellow, that\u2019s just what I want.\"",
+     "withheld": false,
+     "judged": false,
+     "ms": 2564.361572265625
+    },
+    "margin": {
+     "text": "Hastings is in England to visit Styles Court, which has been purchased by Mr. Cavendish and is now his wife's property. Hastings is looking forward to the quiet and peaceful environment there.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1343.0657386779785
+    }
+   }
+  },
+  {
+   "id": "q13",
+   "book": "hound-of-the-baskervilles",
+   "horizon_chapter": 10,
+   "kind": "spoiler",
+   "question": "Who is behind the hound?",
+   "fact": "Stapleton, the naturalist, is the villain who uses the hound.",
+   "horizon": 136040,
+   "horizon_title": "Chapter 8. First Report of Dr. Watson",
+   "answers": {
+    "alone": {
+     "text": "In \"The Hound of the Baskervilles,\" the hound is ultimately revealed to be a hallucination caused by the stress and superstition of the characters, though various supernatural and natural explanations are explored throughout the story.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1314.4357204437256
+    },
+    "whole_book": {
+     "text": "The identity of the hound's master is a central mystery in \"The Hound of the Baskervilles.\" Holmes and Watson consider various possibilities, including Stapleton and even supernatural forces, but the true master remains unclear until the story's resolution.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2112.755537033081
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet who is behind the hound.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1871.6912269592285
+    },
+    "margin": {
+     "text": "The book has not told us yet who is behind the hound.",
+     "withheld": false,
+     "judged": false,
+     "ms": 403.37634086608887
+    }
+   }
+  },
+  {
+   "id": "q14",
+   "book": "hound-of-the-baskervilles",
+   "horizon_chapter": 10,
+   "kind": "spoiler",
+   "question": "Is Beryl Stapleton really Stapleton's sister?",
+   "fact": "Beryl is actually Stapleton's wife, not his sister.",
+   "horizon": 136040,
+   "horizon_title": "Chapter 8. First Report of Dr. Watson",
+   "answers": {
+    "alone": {
+     "text": "No, Beryl Stapleton is not actually Stapleton's sister. She is his niece, the daughter of his brother Julius.",
+     "withheld": false,
+     "judged": true,
+     "ms": 793.8034534454346
+    },
+    "whole_book": {
+     "text": "No, Beryl Stapleton is not really Stapleton's sister. She is his wife, and she consents to pass as his sister to help him with his scheme, though she tries to warn Sir Henry and prevent murder when she can.",
+     "withheld": false,
+     "judged": true,
+     "ms": 2204.730987548828
+    },
+    "margin_no_guard": {
+     "text": "The passage does not explicitly state whether Beryl Stapleton is Stapleton's sister, but it suggests a close relationship between them, as they seem to share concerns and communicate privately.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2568.9189434051514
+    },
+    "margin": {
+     "text": "The passage does not explicitly state whether Beryl Stapleton is Stapleton's sister, but it suggests a close relationship between them, as they seem to share concerns and communicate privately.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1352.5209426879883
+    }
+   }
+  },
+  {
+   "id": "q15",
+   "book": "hound-of-the-baskervilles",
+   "horizon_chapter": 10,
+   "kind": "spoiler",
+   "question": "Why is Barrymore signalling on the moor at night?",
+   "fact": "The escaped convict Selden is Mrs. Barrymore's brother and the Barrymores feed him.",
+   "horizon": 136040,
+   "horizon_title": "Chapter 8. First Report of Dr. Watson",
+   "answers": {
+    "alone": {
+     "text": "Barrymore is signalling on the moor at night to alert Dr. Mortimer of the death of Sir Charles Baskerville and to warn him about the legend of the Hound of the Baskervilles, as he fears for his own safety.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1616.2269115447998
+    },
+    "whole_book": {
+     "text": "Barrymore is not explicitly shown to be signaling on the moor at night in the excerpts provided. The text suggests he was looking out the western window, which commands a view of the moor, but it does not specify that he was signaling. His actions seem to be part of his vigilance and concern for Sir Charles's safety or disappearance.",
+     "withheld": false,
+     "judged": false,
+     "ms": 3575.498580932617
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet why Barrymore is signalling on the moor at night.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2251.866579055786
+    },
+    "margin": {
+     "text": "The book has not told us yet why Barrymore is signalling on the moor at night.",
+     "withheld": false,
+     "judged": false,
+     "ms": 858.311653137207
+    }
+   }
+  },
+  {
+   "id": "q16",
+   "book": "hound-of-the-baskervilles",
+   "horizon_chapter": 10,
+   "kind": "spoiler",
+   "question": "Does Sir Henry survive?",
+   "fact": "Sir Henry survives the hound's attack at the end.",
+   "horizon": 136040,
+   "horizon_title": "Chapter 8. First Report of Dr. Watson",
+   "answers": {
+    "alone": {
+     "text": "Yes, Sir Henry Baskerville survives the events of \"The Hound of the Baskervilles.\" He returns to London without being harmed by the mysterious hound.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1215.3422832489014
+    },
+    "whole_book": {
+     "text": "Yes, Sir Henry survives. In the excerpt from Chapter 12, it is mentioned that Sir Henry has died from a fall, but this is later revealed to be a misdirection. The narrative suggests that the true culprit is trying to frame Sir Henry's death as accidental to avoid suspicion.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2668.8642501831055
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1209.3226909637451
+    },
+    "margin": {
+     "text": "The book has not told us yet.",
+     "withheld": false,
+     "judged": false,
+     "ms": 356.1968803405762
+    }
+   }
+  },
+  {
+   "id": "q17",
+   "book": "hound-of-the-baskervilles",
+   "horizon_chapter": 10,
+   "kind": "spoiler",
+   "question": "What is the hound really?",
+   "fact": "The hound is a huge real dog, painted with phosphorus to make it glow.",
+   "horizon": 136040,
+   "horizon_title": "Chapter 8. First Report of Dr. Watson",
+   "answers": {
+    "alone": {
+     "text": "In \"The Hound of the Baskervilles,\" the hound is ultimately revealed to be a hallucination caused by the stress and superstition of the characters, though a large, real hound is used in the final chase to create a dramatic climax.",
+     "withheld": false,
+     "judged": true,
+     "ms": 1657.5541496276855
+    },
+    "whole_book": {
+     "text": "The hound in \"The Hound of the Baskervilles\" is a realistic, supernatural entity that combines material and supernatural elements. It leaves physical footprints and can be heard howling, but its true nature is kept ambiguous until the end, revealing it to be a spectral hound controlled by Stapleton.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2804.179906845093
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet what the hound really is.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1779.6692848205566
+    },
+    "margin": {
+     "text": "The book has not told us yet what the hound really is.",
+     "withheld": false,
+     "judged": false,
+     "ms": 533.0760478973389
+    }
+   }
+  },
+  {
+   "id": "q18",
+   "book": "hound-of-the-baskervilles",
+   "horizon_chapter": 10,
+   "kind": "spoiler",
+   "question": "Is Stapleton related to the Baskervilles?",
+   "fact": "Stapleton is a Baskerville, the son of Sir Charles's brother Rodger, and heir to the estate.",
+   "horizon": 136040,
+   "horizon_title": "Chapter 8. First Report of Dr. Watson",
+   "answers": {
+    "alone": {
+     "text": "Yes, Stapleton is related to the Baskerville family; he is the cousin of Sir Charles Baskerville and great-uncle to Sir Henry Baskerville.",
+     "withheld": false,
+     "judged": true,
+     "ms": 985.6064319610596
+    },
+    "whole_book": {
+     "text": "Yes, Stapleton is related to the Baskervilles. He is the nephew of Sir Charles Baskerville, who is the uncle of Sir Henry Baskerville. Stapleton is the son of Rodger Baskerville, Sir Charles's younger brother.",
+     "withheld": false,
+     "judged": true,
+     "ms": 2536.2727642059326
+    },
+    "margin_no_guard": {
+     "text": "The passage does not explicitly state that Stapleton is related to the Baskervilles, but it suggests that he might be, given his knowledge of the family's legend and his concern for their welfare.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2635.053873062134
+    },
+    "margin": {
+     "text": "The passage does not explicitly state that Stapleton is related to the Baskervilles, but it suggests that he might be, given his knowledge of the family's legend and his concern for their welfare.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1326.0645866394043
+    }
+   }
+  },
+  {
+   "id": "q19",
+   "book": "hound-of-the-baskervilles",
+   "horizon_chapter": 10,
+   "kind": "answer",
+   "question": "What is the curse of the Baskervilles?",
+   "reference": "A legend of a demon hound that killed Hugo Baskerville and haunts the family.",
+   "horizon": 136040,
+   "horizon_title": "Chapter 8. First Report of Dr. Watson",
+   "answers": {
+    "alone": {
+     "text": "The curse of the Baskervilles in \"The Hound of the Baskervilles\" is a legendary curse that supposedly causes any Baskerville who dares to set foot on the moors after dark to meet a terrible death, often by the jaws of a monstrous hound.",
+     "withheld": false,
+     "judged": true,
+     "ms": 1724.059820175171
+    },
+    "whole_book": {
+     "text": "The curse of the Baskervilles refers to a legend that a hell-hound haunts the Baskerville family, supposedly killing Sir Charles Baskerville and terrorizing the moor. This spectral hound is said to bring death to any Baskerville who dares to set foot on the moor after dark, creating a reign of terror in the district.",
+     "withheld": false,
+     "judged": true,
+     "ms": 3137.4313831329346
+    },
+    "margin_no_guard": {
+     "text": "The curse of the Baskervilles refers to an alleged supernatural threat that has led to the deaths of several members of the Baskerville family when they live at Baskerville Hall, particularly when they reside on the moor.",
+     "withheld": false,
+     "judged": true,
+     "ms": 3048.8579273223877
+    },
+    "margin": {
+     "text": "The curse of the Baskervilles refers to a legend that every Baskerville who goes to Baskerville Hall meets with an evil fate. This is mentioned in the text as a concern for Dr. Mortimer, who believes Sir Charles would have warned against bringing Sir Henry to the hall if he thought it was unsafe.",
+     "withheld": false,
+     "judged": true,
+     "ms": 2074.1076469421387
+    }
+   }
+  },
+  {
+   "id": "q20",
+   "book": "hound-of-the-baskervilles",
+   "horizon_chapter": 10,
+   "kind": "answer",
+   "question": "How did Sir Charles die?",
+   "reference": "He was found dead in the Yew Alley, of heart failure, with a hound's footprints nearby.",
+   "horizon": 136040,
+   "horizon_title": "Chapter 8. First Report of Dr. Watson",
+   "answers": {
+    "alone": {
+     "text": "Sir Charles Baskerville dies from a heart attack after being frightened by the legend of the hound on Baskerville Hall grounds.",
+     "withheld": false,
+     "judged": false,
+     "ms": 903.954029083252
+    },
+    "whole_book": {
+     "text": "Sir Charles died of fright, specifically from seeing a hound associated with a family curse, though this was not evident to the jury.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1685.1162910461426
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet how Sir Charles died.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2001.5723705291748
+    },
+    "margin": {
+     "text": "According to the excerpts, Sir Charles's death was determined to be from natural causes, with evidence pointing to some affection of the heart. No foul play was suspected.",
+     "withheld": false,
+     "judged": true,
+     "ms": 2934.854030609131
+    }
+   }
+  },
+  {
+   "id": "q21",
+   "book": "hound-of-the-baskervilles",
+   "horizon_chapter": 10,
+   "kind": "answer",
+   "question": "Who is Dr. Mortimer?",
+   "reference": "Sir Charles's friend and doctor, who brought the case to Holmes.",
+   "horizon": 136040,
+   "horizon_title": "Chapter 8. First Report of Dr. Watson",
+   "answers": {
+    "alone": {
+     "text": "Dr. Mortimer is a friend of Sir Charles Baskerville who visits Sherlock Holmes to warn him about the legend of a hound that haunts the Baskerville family and to show him a will that leaves Baskerville Hall to Sir Charles's cousin, Sir Henry.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1654.7296047210693
+    },
+    "whole_book": {
+     "text": "Dr. Mortimer is a successful, elderly medical man and a country practitioner who does a great deal of his visiting on foot, as evidenced by the condition of his walking stick. He is well-esteemed and has a medical practice in Grimpen, Dartmoor, Devon. He is also a house-surgeon who has worked at Charing Cross Hospital and has published several medical papers.",
+     "withheld": false,
+     "judged": false,
+     "ms": 3244.2634105682373
+    },
+    "margin_no_guard": {
+     "text": "Dr. Mortimer is a successful, elderly medical man who is a country practitioner, having worked as a house-surgeon at Charing Cross Hospital and serving as a medical officer for several parishes.",
+     "withheld": false,
+     "judged": true,
+     "ms": 2788.0420684814453
+    },
+    "margin": {
+     "text": "Dr. Mortimer is a successful, elderly medical man who is a country practitioner, having worked as a house-surgeon at Charing Cross Hospital and serving as a medical officer for several parishes.",
+     "withheld": false,
+     "judged": true,
+     "ms": 1257.8461170196533
+    }
+   }
+  },
+  {
+   "id": "q22",
+   "book": "hound-of-the-baskervilles",
+   "horizon_chapter": 10,
+   "kind": "answer",
+   "question": "What happened to Sir Henry's boots in London?",
+   "reference": "Boots were stolen at his hotel: first a new brown one, then an old black one.",
+   "horizon": 136040,
+   "horizon_title": "Chapter 8. First Report of Dr. Watson",
+   "answers": {
+    "alone": {
+     "text": "In \"The Hound of the Baskervilles,\" Sir Henry's boots are stolen from a London hotel. This incident is part of the early developments that Holmes and Watson investigate, hinting at potential danger and intrigue surrounding Sir Henry.",
+     "withheld": false,
+     "judged": true,
+     "ms": 1556.3781261444092
+    },
+    "whole_book": {
+     "text": "Sir Henry bought a pair of brown boots in London but had one stolen before he could wear it.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1316.8654441833496
+    },
+    "margin_no_guard": {
+     "text": "Sir Henry bought a pair of brown boots and had one stolen before he could wear it.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2344.499111175537
+    },
+    "margin": {
+     "text": "Sir Henry bought a pair of brown boots and had one stolen before he could wear it.",
+     "withheld": false,
+     "judged": false,
+     "ms": 735.3019714355469
+    }
+   }
+  },
+  {
+   "id": "q23",
+   "book": "study-in-scarlet",
+   "horizon_chapter": 9,
+   "kind": "spoiler",
+   "question": "Who killed Enoch Drebber?",
+   "fact": "Jefferson Hope, a cab driver, killed Drebber.",
+   "horizon": 84287,
+   "horizon_title": "CHAPTER VI. TOBIAS GREGSON SHOWS WHAT HE CAN DO.",
+   "answers": {
+    "alone": {
+     "text": "In \"A Study in Scarlet,\" Enoch Drebber is killed by James Moriarty, who is revealed to be working with John Watson's friend, Roger Yardley, to frame James Rache for the murder.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1605.7183742523193
+    },
+    "whole_book": {
+     "text": "Jefferson Hope killed Enoch Drebber. He was a man seeking revenge for the death of his lover, John Ferrier, at the hands of Drebber and Stangerson.",
+     "withheld": false,
+     "judged": true,
+     "ms": 2104.618549346924
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet who killed Enoch Drebber.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1365.0290966033936
+    },
+    "margin": {
+     "text": "I'd rather not answer that yet: what I could say might give away what is still ahead of you.",
+     "withheld": true,
+     "judged": false,
+     "ms": 2066.4353370666504
+    }
+   }
+  },
+  {
+   "id": "q24",
+   "book": "study-in-scarlet",
+   "horizon_chapter": 9,
+   "kind": "spoiler",
+   "question": "Why was RACHE written on the wall?",
+   "fact": "It was revenge for Lucy Ferrier, forced to marry Drebber by the Mormons in Utah.",
+   "horizon": 84287,
+   "horizon_title": "CHAPTER VI. TOBIAS GREGSON SHOWS WHAT HE CAN DO.",
+   "answers": {
+    "alone": {
+     "text": "RACHE was written on the wall as a clue by the killer, representing the German word \"Rache,\" which means \"vengeance.\" This message indicates that the crime was motivated by a desire for revenge.",
+     "withheld": false,
+     "judged": true,
+     "ms": 1226.9413471221924
+    },
+    "whole_book": {
+     "text": "RACHE was written on the wall as a deliberate ruse by the unknown assassin to mislead the police and divert their attention from the real culprit, imitating a German writing style to suggest involvement of secret societies.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2170.5737113952637
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet why RACHE was written on the wall.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1942.6167011260986
+    },
+    "margin": {
+     "text": "The book has not told us yet why RACHE was written on the wall.",
+     "withheld": false,
+     "judged": false,
+     "ms": 502.12860107421875
+    }
+   }
+  },
+  {
+   "id": "q25",
+   "book": "study-in-scarlet",
+   "horizon_chapter": 9,
+   "kind": "spoiler",
+   "question": "What happens to Stangerson?",
+   "fact": "Stangerson is murdered at Halliday's Private Hotel.",
+   "horizon": 84287,
+   "horizon_title": "CHAPTER VI. TOBIAS GREGSON SHOWS WHAT HE CAN DO.",
+   "answers": {
+    "alone": {
+     "text": "In \"A Study in Scarlet,\" Stangerson, one of the partners in the crime with John Windsor Ronald Rache, dies of a heart attack after learning that Rache is a murderer.",
+     "withheld": false,
+     "judged": true,
+     "ms": 1215.8997058868408
+    },
+    "whole_book": {
+     "text": "Stangerson's fate is not explicitly stated in the excerpts provided. He is last seen with Drebber at Euston Station, but by the time Drebber is found dead in Brixton Road, Stangerson is missing. Inspector Lestrade and Mr. Gregson are investigating to find out what happened to him between their last sighting and Drebber's death.",
+     "withheld": false,
+     "judged": false,
+     "ms": 3258.9385509490967
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1554.6116828918457
+    },
+    "margin": {
+     "text": "The book has not told us yet.",
+     "withheld": false,
+     "judged": false,
+     "ms": 374.64118003845215
+    }
+   }
+  },
+  {
+   "id": "q26",
+   "book": "study-in-scarlet",
+   "horizon_chapter": 9,
+   "kind": "spoiler",
+   "question": "Will the murderer be caught?",
+   "fact": "Holmes catches the murderer, Jefferson Hope, by calling up a cab.",
+   "horizon": 84287,
+   "horizon_title": "CHAPTER VI. TOBIAS GREGSON SHOWS WHAT HE CAN DO.",
+   "answers": {
+    "alone": {
+     "text": "Yes, in \"A Study in Scarlet,\" the murderer is ultimately caught by Sherlock Holmes through his deductive reasoning and investigative skills.",
+     "withheld": false,
+     "judged": false,
+     "ms": 930.7947158813477
+    },
+    "whole_book": {
+     "text": "Based on the excerpt, it seems likely that the murderer will be caught. Sherlock Holmes expresses confidence in apprehending the criminal \"very shortly\" and credits the \"well-known Scotland Yard officials\" with the capture, suggesting the murderer has been identified and will be arrested.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2269.176244735718
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1649.5928764343262
+    },
+    "margin": {
+     "text": "The book has not told us yet.",
+     "withheld": false,
+     "judged": false,
+     "ms": 298.3813285827637
+    }
+   }
+  },
+  {
+   "id": "q27",
+   "book": "study-in-scarlet",
+   "horizon_chapter": 9,
+   "kind": "answer",
+   "question": "How did Watson meet Holmes?",
+   "reference": "Through Stamford, at the hospital laboratory, so they could share rooms in Baker Street.",
+   "horizon": 84287,
+   "horizon_title": "CHAPTER VI. TOBIAS GREGSON SHOWS WHAT HE CAN DO.",
+   "answers": {
+    "alone": {
+     "text": "In \"A Study in Scarlet,\" Watson meets Holmes through a mutual acquaintance, Dr. John Watson himself initially joining the army and then returning to London where he boards at 221B Baker Street, where Holmes lives. Holmes notices Watson's military doctor's uniform and invites him to dinner, leading to their acquaintance.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2334.491491317749
+    },
+    "whole_book": {
+     "text": "Dr. Watson met Sherlock Holmes through Stamford, who introduced them and mentioned that Watson had been in Afghanistan, which Holmes confirmed with his astute observation.",
+     "withheld": false,
+     "judged": true,
+     "ms": 2352.3006439208984
+    },
+    "margin_no_guard": {
+     "text": "Dr. Watson met Holmes through Stamford, who introduced them and mentioned that Watson had been in Afghanistan.",
+     "withheld": false,
+     "judged": true,
+     "ms": 1891.5224075317383
+    },
+    "margin": {
+     "text": "Dr. Watson met Holmes through Stamford, who introduced them and mentioned that Watson had been in Afghanistan.",
+     "withheld": false,
+     "judged": true,
+     "ms": 803.0421733856201
+    }
+   }
+  },
+  {
+   "id": "q28",
+   "book": "study-in-scarlet",
+   "horizon_chapter": 9,
+   "kind": "answer",
+   "question": "Where was the body found?",
+   "reference": "In an empty house, 3 Lauriston Gardens off the Brixton Road.",
+   "horizon": 84287,
+   "horizon_title": "CHAPTER VI. TOBIAS GREGSON SHOWS WHAT HE CAN DO.",
+   "answers": {
+    "alone": {
+     "text": "In \"A Study in Scarlet,\" the body is found in the courtyard of a boarding house at 221B Baker Street.",
+     "withheld": false,
+     "judged": false,
+     "ms": 724.8752117156982
+    },
+    "whole_book": {
+     "text": "The body was found in an empty house at 3, Lauriston Gardens, which is off the Brixton Road.",
+     "withheld": false,
+     "judged": true,
+     "ms": 1489.264965057373
+    },
+    "margin_no_guard": {
+     "text": "The body was found in the front room of 3, Lauriston Gardens, which is bare of furniture.",
+     "withheld": false,
+     "judged": true,
+     "ms": 1625.9427070617676
+    },
+    "margin": {
+     "text": "The body was found in the front room of 3, Lauriston Gardens, which is bare of furniture.",
+     "withheld": false,
+     "judged": true,
+     "ms": 847.9206562042236
+    }
+   }
+  },
+  {
+   "id": "q29",
+   "book": "study-in-scarlet",
+   "horizon_chapter": 9,
+   "kind": "answer",
+   "question": "What was written on the wall?",
+   "reference": "The word RACHE, in blood.",
+   "horizon": 84287,
+   "horizon_title": "CHAPTER VI. TOBIAS GREGSON SHOWS WHAT HE CAN DO.",
+   "answers": {
+    "alone": {
+     "text": "In \"A Study in Scarlet,\" the message \"R. C. H.\" is written on the wall, which stands for \"Rache,\" a German word meaning \"revenge.\"",
+     "withheld": false,
+     "judged": false,
+     "ms": 1079.7808170318604
+    },
+    "whole_book": {
+     "text": "The word \"RACHE\" was written on the wall in blood. This was done by the narrator, Dr. Watson, as a mischievous act to set the police on a wrong track, inspired by a similar incident in New York where secret societies were suspected.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2702.986717224121
+    },
+    "margin_no_guard": {
+     "text": "The letter on the wall was written with blood using a man's forefinger, and it was done in a corner that would be the brightest due to a lit candle on the mantelpiece. The writing was visible because of the blood smear trickling down the wall.",
+     "withheld": false,
+     "judged": false,
+     "ms": 3002.910614013672
+    },
+    "margin": {
+     "text": "The letter on the wall was written with blood using a man's forefinger, and it was done in a corner that would be the brightest due to a lit candle on the mantelpiece. The writing was visible because of the blood smear trickling down the wall.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1807.3139190673828
+    }
+   }
+  },
+  {
+   "id": "q30",
+   "book": "study-in-scarlet",
+   "horizon_chapter": 9,
+   "kind": "answer",
+   "question": "What did Holmes find out from the ring advertisement?",
+   "reference": "An old woman came for the ring, and Holmes's chase of her failed; she escaped from the cab.",
+   "horizon": 84287,
+   "horizon_title": "CHAPTER VI. TOBIAS GREGSON SHOWS WHAT HE CAN DO.",
+   "answers": {
+    "alone": {
+     "text": "In \"A Study in Scarlet,\" Holmes deduces that the ring advertisement is a coded message indicating the criminal's profession as a jeweler, as the phrase \"looking for a small dark man\" resembles a jeweler's advertisement for lost property.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1367.2528266906738
+    },
+    "whole_book": {
+     "text": "From the ring advertisement, Holmes learned that a plain gold wedding ring was found in the roadway between the \"White Hart\" Tavern and Holland Grove. He used this information to his advantage by placing a similar advertisement to attract the attention of the ring's owner or possessor.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2514.8167610168457
+    },
+    "margin_no_guard": {
+     "text": "Holmes found out that a woman\u2019s wedding ring was found in the roadway near the scene of the crime, but the advertisement did not mention this detail.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2387.4309062957764
+    },
+    "margin": {
+     "text": "Holmes found out that a woman\u2019s wedding ring was found in the roadway near the scene of the crime, but the advertisement did not mention this detail.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1069.8754787445068
+    }
+   }
+  },
+  {
+   "id": "q31",
+   "book": "treasure-island",
+   "horizon_chapter": 15,
+   "kind": "spoiler",
+   "question": "Can Long John Silver be trusted?",
+   "fact": "Silver is the leader of the pirates and plans a mutiny.",
+   "horizon": 95952,
+   "horizon_title": "X The Voyage",
+   "answers": {
+    "alone": {
+     "text": "Long John Silver, with his one-legged appearance and mysterious past, is a character whose trustworthiness is often questioned in \"Treasure Island.\" His loyalty to the crew is ambiguous, and his true intentions remain uncertain until the end of the novel.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1613.642692565918
+    },
+    "whole_book": {
+     "text": "Long John Silver appears to be a complex character whose trustworthiness is questionable. He is resourceful, has financial stability, and seems to have a network of former sailors, but also shows a willingness to betray his crew as evidenced by the black spot incident. His true intentions remain ambiguous throughout the narrative.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2723.069667816162
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet whether Long John Silver can be trusted. He is described as having lost a leg in service and having a banker's account, but his true character remains to be seen.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2220.034122467041
+    },
+    "margin": {
+     "text": "The book has not told us yet whether Long John Silver can be trusted. He seems to have a recommendation due to his lost leg in service, and he appears capable and resourceful, but his past and true character are not yet fully revealed.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1541.184425354004
+    }
+   }
+  },
+  {
+   "id": "q32",
+   "book": "treasure-island",
+   "horizon_chapter": 15,
+   "kind": "spoiler",
+   "question": "Who finds the treasure?",
+   "fact": "Ben Gunn had already dug up the treasure and moved it to his cave.",
+   "horizon": 95952,
+   "horizon_title": "X The Voyage",
+   "answers": {
+    "alone": {
+     "text": "Jim Hawkins finds the treasure with the help of the other characters, including Long John Silver, after sailing to Treasure Island and uncovering the map.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1115.0147914886475
+    },
+    "whole_book": {
+     "text": "The treasure is found by the narrator and his companions when they discover a human skeleton with sea-cloth at the foot of a pine tree, realizing it is a pointer to the treasure's location.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1824.3253231048584
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet who finds the treasure.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1191.5318965911865
+    },
+    "margin": {
+     "text": "I'd rather not answer that yet: what I could say might give away what is still ahead of you.",
+     "withheld": true,
+     "judged": false,
+     "ms": 1382.8225135803223
+    }
+   }
+  },
+  {
+   "id": "q33",
+   "book": "treasure-island",
+   "horizon_chapter": 15,
+   "kind": "spoiler",
+   "question": "What happens to Long John Silver in the end?",
+   "fact": "Silver escapes from the ship with some of the money.",
+   "horizon": 95952,
+   "horizon_title": "X The Voyage",
+   "answers": {
+    "alone": {
+     "text": "In the end of \"Treasure Island,\" Long John Silver is left behind on the island when the other pirates are killed or captured. He manages to escape by swimming to a nearby ship, though his leg is lost to a cannonball.",
+     "withheld": false,
+     "judged": true,
+     "ms": 1549.241542816162
+    },
+    "whole_book": {
+     "text": "In the end, Long John Silver disappears from the narrative, with Jim Hawkins speculating that he likely met up with his wife and Captain Flint, though Hawkins doubts Silver's chances of a comfortable life or a good afterlife.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2052.504777908325
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet.",
+     "withheld": false,
+     "judged": false,
+     "ms": 377.08377838134766
+    },
+    "margin": {
+     "text": "The book has not told us yet.",
+     "withheld": false,
+     "judged": false,
+     "ms": 290.0240421295166
+    }
+   }
+  },
+  {
+   "id": "q34",
+   "book": "treasure-island",
+   "horizon_chapter": 15,
+   "kind": "spoiler",
+   "question": "Who is Ben Gunn?",
+   "fact": "Ben Gunn is a marooned pirate living on the island.",
+   "horizon": 95952,
+   "horizon_title": "X The Voyage",
+   "answers": {
+    "alone": {
+     "text": "Ben Gunn is a wild and unkempt castaway whom the crew of the Hispaniola rescues at the end of the novel. He has been living on Treasure Island for four years and knows the location of the treasure X marks on the map.",
+     "withheld": false,
+     "judged": true,
+     "ms": 1474.5616912841797
+    },
+    "whole_book": {
+     "text": "Ben Gunn is a marooned sailor from \"Treasure Island\" who has been alone on the island for three years when Jim Hawkins meets him. He is described as a half-idiot and speaks in a hoarse, awkward voice. Ben helps Jim and the others by revealing the location of the treasure and aiding in the capture of Billy Silver.",
+     "withheld": false,
+     "judged": true,
+     "ms": 3040.2562618255615
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet about Ben Gunn.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1343.6775207519531
+    },
+    "margin": {
+     "text": "I'd rather not answer that yet: what I could say might give away what is still ahead of you.",
+     "withheld": true,
+     "judged": false,
+     "ms": 1773.550033569336
+    }
+   }
+  },
+  {
+   "id": "q35",
+   "book": "treasure-island",
+   "horizon_chapter": 15,
+   "kind": "spoiler",
+   "question": "Will there be a mutiny?",
+   "fact": "The crew mutinies under Silver once they reach the island.",
+   "horizon": 95952,
+   "horizon_title": "X The Voyage",
+   "answers": {
+    "alone": {
+     "text": "Yes, there will be a mutiny on the ship commanded by Captain Flint in \"Treasure Island.\" The mutiny is a pivotal event that drives much of the plot, leading to the quest for the treasure and the conflict between the characters.",
+     "withheld": false,
+     "judged": true,
+     "ms": 1444.728136062622
+    },
+    "whole_book": {
+     "text": "Based on the descriptions in the excerpts, it seems likely there will be a mutiny. The captain is suspicious of the crew's behavior, especially after Silver's actions and the crew's secretive plans regarding the powder and arms. The atmosphere on the ship is tense, and the crew's reluctance to follow orders and their growling conversations suggest they are plotting.",
+     "withheld": false,
+     "judged": false,
+     "ms": 3051.6045093536377
+    },
+    "margin_no_guard": {
+     "text": "The captain's actions and words suggest he fears a mutiny, but whether there will be one is not yet clear from the excerpts provided.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2011.3592147827148
+    },
+    "margin": {
+     "text": "The captain's actions and words suggest he fears a mutiny, but whether there will be one is not yet clear from the excerpts provided.",
+     "withheld": false,
+     "judged": false,
+     "ms": 873.0974197387695
+    }
+   }
+  },
+  {
+   "id": "q36",
+   "book": "treasure-island",
+   "horizon_chapter": 15,
+   "kind": "answer",
+   "question": "Who is Billy Bones?",
+   "reference": "The old sea-captain staying at the Admiral Benbow with a sea-chest.",
+   "horizon": 95952,
+   "horizon_title": "X The Voyage",
+   "answers": {
+    "alone": {
+     "text": "Billy Bones is a seaman and the former friend of Captain Smollett, who becomes a lodger in the Admiral Benbow inn. He is characterized by his heavy drinking and the tales of treasure he brings with him, which pique Jim Hawkins's interest and eventually lead to the discovery of the treasure map.",
+     "withheld": false,
+     "judged": true,
+     "ms": 2026.8189907073975
+    },
+    "whole_book": {
+     "text": "Billy Bones is a character in \"Treasure Island\" who was the former captain of the Hispaniola and the mentor to Jim Hawkins. He is described as a grizzled seaman who has knowledge of the treasure and its location, though he dies before revealing it fully.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2462.3677730560303
+    },
+    "margin_no_guard": {
+     "text": "Billy Bones is a character mentioned in the excerpts, known to the captain as an old shipmate. He seems to have a past with the Black Dog, another character mentioned, and has tattoos on his arm, including a gallows and a man hanging from it.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2505.3796768188477
+    },
+    "margin": {
+     "text": "Billy Bones is a character mentioned in the excerpts, known to the stranger as Black Dog and the captain as an old shipmate. The captain recognizes him by the name Billy Bones, suggesting he is a familiar figure to the captain, though the full details of who he is or his significance are not yet provided in these excerpts.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1906.7401885986328
+    }
+   }
+  },
+  {
+   "id": "q37",
+   "book": "treasure-island",
+   "horizon_chapter": 15,
+   "kind": "answer",
+   "question": "What is the black spot?",
+   "reference": "A pirates' summons, a warning or verdict against the one who gets it.",
+   "horizon": 95952,
+   "horizon_title": "X The Voyage",
+   "answers": {
+    "alone": {
+     "text": "The black spot in \"Treasure Island\" is a piece of paper with a black spot drawn on it, which serves as a map leading to the buried treasure. It is given to Billy Bones by a mysterious seaman and later becomes a central object in the pirates' quest for treasure.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1708.0984115600586
+    },
+    "whole_book": {
+     "text": "The black spot is a summons in \"Treasure Island\" that indicates the recipient has until ten that night to meet with the pirates. It is a threatening message that leads to the climax of the story.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1923.0725765228271
+    },
+    "margin_no_guard": {
+     "text": "The black spot is a summons, according to the captain. He mentions that if they receive it, he will share with Jim equally.",
+     "withheld": false,
+     "judged": true,
+     "ms": 1496.7246055603027
+    },
+    "margin": {
+     "text": "The black spot is a summons, according to the captain. He mentions that if they receive it, he will share with Jim equally.",
+     "withheld": false,
+     "judged": true,
+     "ms": 970.9267616271973
+    }
+   }
+  },
+  {
+   "id": "q38",
+   "book": "treasure-island",
+   "horizon_chapter": 15,
+   "kind": "answer",
+   "question": "What did Jim find in the sea-chest?",
+   "reference": "Money and an oilskin packet with Flint's map of the island.",
+   "horizon": 95952,
+   "horizon_title": "X The Voyage",
+   "answers": {
+    "alone": {
+     "text": "In the sea-chest, Jim Hawkins found a map leading to Treasure Island, which was crucial for the adventure that followed.",
+     "withheld": false,
+     "judged": false,
+     "ms": 742.3074245452881
+    },
+    "whole_book": {
+     "text": "In \"Treasure Island,\" Jim finds a sea-chest containing clues and papers related to the treasure, though the exact contents are not detailed in the excerpt provided.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1929.952621459961
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1058.3171844482422
+    },
+    "margin": {
+     "text": "The book has not told us yet.",
+     "withheld": false,
+     "judged": false,
+     "ms": 335.8111381530762
+    }
+   }
+  },
+  {
+   "id": "q39",
+   "book": "treasure-island",
+   "horizon_chapter": 15,
+   "kind": "answer",
+   "question": "Who is Squire Trelawney?",
+   "reference": "A local gentleman who buys the ship and organizes the voyage to the island.",
+   "horizon": 95952,
+   "horizon_title": "X The Voyage",
+   "answers": {
+    "alone": {
+     "text": "Squire Trelawney is one of the principal characters in \"Treasure Island,\" serving as the father of Dr. Livesey and a key figure in the expedition to find the treasure.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1367.9835796356201
+    },
+    "whole_book": {
+     "text": "Squire Trelawney is a key figure in \"Treasure Island,\" initially introduced as a landowner who joins the quest to find treasure with Dr. Livesey and Jim Hawkins. He is portrayed as a wealthy and somewhat naive participant, eager to join the adventure and confident in his ability to lead the expedition, though he lacks naval experience.",
+     "withheld": false,
+     "judged": false,
+     "ms": 3070.7857608795166
+    },
+    "margin_no_guard": {
+     "text": "Squire Trelawney is a character who is accompanying the doctor and Jim on their quest to find buried treasure. He is described as being excited about the adventure and eager to set sail.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2244.5952892303467
+    },
+    "margin": {
+     "text": "Squire Trelawney is a character who is part of the group planning to seek buried treasure, as evidenced by his mention in the passage where he is preparing for the voyage and expressing enthusiasm for the adventure.",
+     "withheld": false,
+     "judged": true,
+     "ms": 1353.9011478424072
+    }
+   }
+  },
+  {
+   "id": "q40",
+   "book": "pride-and-prejudice",
+   "horizon_chapter": 30,
+   "kind": "spoiler",
+   "question": "Will Darcy propose to Elizabeth?",
+   "fact": "Darcy proposes to Elizabeth and she refuses him.",
+   "horizon": 308407,
+   "horizon_title": "CHAPTER XXIX.",
+   "answers": {
+    "alone": {
+     "text": "Yes, in the climax of \"Pride and Prejudice,\" Mr. Darcy proposes to Elizabeth Bennet, though initially her response is negative due to her anger and disappointment in his behavior. Later, after Darcy writes a letter explaining his actions, Elizabeth accepts his proposal.",
+     "withheld": false,
+     "judged": true,
+     "ms": 1814.659833908081
+    },
+    "whole_book": {
+     "text": "Based on the excerpts provided, it seems likely that Darcy will propose to Elizabeth, though the exact timing is not clear. The text suggests that Darcy is becoming more interested in Elizabeth, and there are hints that he may be planning to propose, though Elizabeth is initially resistant.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2409.9411964416504
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1349.9634265899658
+    },
+    "margin": {
+     "text": "The book has not told us yet.",
+     "withheld": false,
+     "judged": false,
+     "ms": 364.52770233154297
+    }
+   }
+  },
+  {
+   "id": "q41",
+   "book": "pride-and-prejudice",
+   "horizon_chapter": 30,
+   "kind": "spoiler",
+   "question": "Who does Elizabeth marry?",
+   "fact": "Elizabeth marries Mr. Darcy.",
+   "horizon": 308407,
+   "horizon_title": "CHAPTER XXIX.",
+   "answers": {
+    "alone": {
+     "text": "Elizabeth Bennet marries Mr. Darcy at the end of \"Pride and Prejudice.\"",
+     "withheld": false,
+     "judged": true,
+     "ms": 767.9462432861328
+    },
+    "whole_book": {
+     "text": "Elizabeth Bennet marries Mr. Darcy, as implied by the context of the later chapters where she and Darcy's relationship is a central focus.",
+     "withheld": false,
+     "judged": true,
+     "ms": 1598.6828804016113
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1469.8238372802734
+    },
+    "margin": {
+     "text": "The book has not told us yet.",
+     "withheld": false,
+     "judged": false,
+     "ms": 361.87291145324707
+    }
+   }
+  },
+  {
+   "id": "q42",
+   "book": "pride-and-prejudice",
+   "horizon_chapter": 30,
+   "kind": "spoiler",
+   "question": "What did Wickham really do to Darcy?",
+   "fact": "Wickham tried to elope with Darcy's young sister Georgiana for her fortune.",
+   "horizon": 308407,
+   "horizon_title": "CHAPTER XXIX.",
+   "answers": {
+    "alone": {
+     "text": "In \"Pride and Prejudice,\" Wickham falsely accused Darcy of preventing him from marrying Elizabeth's sister, Lydia, by withholding money he claimed Darcy owed him. Wickham's version of events was misleading and motivated by his desire to avoid financial responsibility.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1596.3621139526367
+    },
+    "whole_book": {
+     "text": "According to the excerpts, Wickham ran away with Darcy's sister's money and eloped with her, which Darcy later had to deal with by paying off Wickham and marrying his sister to avoid scandal.",
+     "withheld": false,
+     "judged": true,
+     "ms": 2012.6762390136719
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1685.8303546905518
+    },
+    "margin": {
+     "text": "The book has not told us yet.",
+     "withheld": false,
+     "judged": false,
+     "ms": 331.8212032318115
+    }
+   }
+  },
+  {
+   "id": "q43",
+   "book": "pride-and-prejudice",
+   "horizon_chapter": 30,
+   "kind": "spoiler",
+   "question": "What happens to Lydia?",
+   "fact": "Lydia elopes with Wickham.",
+   "horizon": 308407,
+   "horizon_title": "CHAPTER XXIX.",
+   "answers": {
+    "alone": {
+     "text": "Lydia elopes with Mr. Wickham, causing a scandal, but they eventually marry with Wickham's financial assistance, bringing an end to the scandal and Lydia's disgrace in the eyes of her family.",
+     "withheld": false,
+     "judged": true,
+     "ms": 1240.1318550109863
+    },
+    "whole_book": {
+     "text": "Lydia elopes with Wickham and runs away, which causes a scandal. She is invited to stay with Mrs. Forster in Brighton, but her elopement and the resulting scandal bring shame to her family.",
+     "withheld": false,
+     "judged": true,
+     "ms": 2066.027879714966
+    },
+    "margin_no_guard": {
+     "text": "The excerpts do not tell us what happens to Lydia.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1724.0889072418213
+    },
+    "margin": {
+     "text": "I'd rather not answer that yet: what I could say might give away what is still ahead of you.",
+     "withheld": true,
+     "judged": false,
+     "ms": 2077.542781829834
+    }
+   }
+  },
+  {
+   "id": "q44",
+   "book": "pride-and-prejudice",
+   "horizon_chapter": 30,
+   "kind": "spoiler",
+   "question": "Does Jane end up with Bingley?",
+   "fact": "Jane and Bingley are engaged and marry.",
+   "horizon": 308407,
+   "horizon_title": "CHAPTER XXIX.",
+   "answers": {
+    "alone": {
+     "text": "No, Elizabeth Bennet ends up with Mr. Darcy, not Mr. Bingley, despite initial misunderstandings and obstacles in their relationship.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1161.1061096191406
+    },
+    "whole_book": {
+     "text": "No, Jane does not end up with Bingley. The excerpt from Chapter XLIV suggests that Bingley shows more interest in Miss Darcy, and there are no indications that Bingley returns Jane's feelings.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2170.8714962005615
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1491.8227195739746
+    },
+    "margin": {
+     "text": "The book has not told us yet.",
+     "withheld": false,
+     "judged": false,
+     "ms": 376.5091896057129
+    }
+   }
+  },
+  {
+   "id": "q45",
+   "book": "pride-and-prejudice",
+   "horizon_chapter": 30,
+   "kind": "answer",
+   "question": "Who did Charlotte Lucas marry?",
+   "reference": "Mr. Collins.",
+   "horizon": 308407,
+   "horizon_title": "CHAPTER XXIX.",
+   "answers": {
+    "alone": {
+     "text": "Charlotte Lucas married Mr. Collins, a wealthy but unsuitable match, to secure financial stability.",
+     "withheld": false,
+     "judged": true,
+     "ms": 723.8531112670898
+    },
+    "whole_book": {
+     "text": "Charlotte Lucas married Mr. Collins, as mentioned in Chapter LIII where Mrs. Bennet discusses the marriage in the neighborhood.",
+     "withheld": false,
+     "judged": true,
+     "ms": 1487.128734588623
+    },
+    "margin_no_guard": {
+     "text": "The book has not told us yet.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1494.3153858184814
+    },
+    "margin": {
+     "text": "The book has not told us yet.",
+     "withheld": false,
+     "judged": false,
+     "ms": 349.3950366973877
+    }
+   }
+  },
+  {
+   "id": "q46",
+   "book": "pride-and-prejudice",
+   "horizon_chapter": 30,
+   "kind": "answer",
+   "question": "Why did Elizabeth refuse Mr. Collins?",
+   "reference": "She did not love him and could not be happy with him.",
+   "horizon": 308407,
+   "horizon_title": "CHAPTER XXIX.",
+   "answers": {
+    "alone": {
+     "text": "Elizabeth refused Mr. Collins because she found him unsuitable and ridiculous, seeing his proposal as an insult to her intelligence and independence.",
+     "withheld": false,
+     "judged": false,
+     "ms": 795.0782775878906
+    },
+    "whole_book": {
+     "text": "Elizabeth refused Mr. Collins because she did not return his romantic interest, finding his proposal puzzling and her feelings for him distant. She was aware of her mother's desire for them to marry but chose not to engage in a dispute over his advances.",
+     "withheld": false,
+     "judged": true,
+     "ms": 2285.055160522461
+    },
+    "margin_no_guard": {
+     "text": "Elizabeth refused Mr. Collins because she found his increasing civilities and attempts at complimenting her to be puzzling and not genuinely gratifying. She expressed her refusal with warmth, indicating that she did not see his advances in a positive light.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2495.44095993042
+    },
+    "margin": {
+     "text": "Elizabeth refused Mr. Collins because she found his increasing civilities and attempts at complimenting her to be puzzling and not genuinely gratifying. She expressed her refusal with warmth and clarity, indicating that she did not wish to encourage him further.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1409.3241691589355
+    }
+   }
+  },
+  {
+   "id": "q47",
+   "book": "pride-and-prejudice",
+   "horizon_chapter": 30,
+   "kind": "answer",
+   "question": "What does Wickham say about Darcy?",
+   "reference": "That Darcy refused him the church living old Mr. Darcy left him.",
+   "horizon": 308407,
+   "horizon_title": "CHAPTER XXIX.",
+   "answers": {
+    "alone": {
+     "text": "In \"Pride and Prejudice,\" Wickham claims that Darcy has a bad character and has wronged him by attempting to break off their engagement without explanation, leading Wickham to elope with Darcy's sister.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1520.2040672302246
+    },
+    "whole_book": {
+     "text": "Wickham portrays Darcy as someone whose actions are often driven by pride but also suggests that Darcy's pride has sometimes worked for good, protecting him and others. He contrasts this with his own behavior, noting that he has stronger impulses than pride in his interactions with Darcy.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2566.5371417999268
+    },
+    "margin_no_guard": {
+     "text": "Wickham says that Darcy's pride has often been his best friend and that it has connected him nearer with virtue than any other feeling. However, Wickham also mentions that Darcy's pride has led him to be dishonest with him.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2953.7973403930664
+    },
+    "margin": {
+     "text": "Wickham says that Darcy's pride has often been his best friend and that it has connected him nearer with virtue than any other feeling. However, Wickham also mentions that Darcy's pride has often been dishonest and that Wickham himself has been treated unfairly by Darcy.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1746.8795776367188
+    }
+   }
+  },
+  {
+   "id": "q48",
+   "book": "pride-and-prejudice",
+   "horizon_chapter": 30,
+   "kind": "answer",
+   "question": "Who is Lady Catherine de Bourgh?",
+   "reference": "Mr. Collins's patroness, and Darcy's aunt.",
+   "horizon": 308407,
+   "horizon_title": "CHAPTER XXIX.",
+   "answers": {
+    "alone": {
+     "text": "Lady Catherine de Bourgh is a wealthy and aristocratic woman who appears late in \"Pride and Prejudice.\" She is the aunt of Mr. Collins, who proposes to Elizabeth Bennet. Lady Catherine attempts to persuade Elizabeth to reject Mr. Collins and not marry Mr. Darcy, showcasing her authoritative and domineering personality.",
+     "withheld": false,
+     "judged": true,
+     "ms": 1967.6878452301025
+    },
+    "whole_book": {
+     "text": "Lady Catherine de Bourgh is a wealthy and influential character in \"Pride and Prejudice.\" She is the patron of Mr. Collins, who receives a living from her, and is the aunt of Mr. Darcy and the mother of Miss de Bourgh. Known for her high social status and condescending nature, she is often seen as a figure of authority and respect in the novel.",
+     "withheld": false,
+     "judged": true,
+     "ms": 3338.390827178955
+    },
+    "margin_no_guard": {
+     "text": "Lady Catherine de Bourgh is the widow of Sir Lewis de Bourgh and the patroness of Mr. Collins, who has been appointed the rector of the parish. She is known for her affability and condescension, and she regularly invites the Bennet family to dine at her estate, Rosings.",
+     "withheld": false,
+     "judged": false,
+     "ms": 3124.814987182617
+    },
+    "margin": {
+     "text": "Lady Catherine de Bourgh is the widow of Sir Lewis de Bourgh and the patroness of Mr. Collins, who has been appointed the rector of the parish. She is known for her affability and condescension, and she regularly invites the Bennet family to dine at her estate, Rosings.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1864.3062114715576
+    }
+   }
+  },
+  {
+   "id": "q49",
+   "book": "pride-and-prejudice",
+   "horizon_chapter": 30,
+   "kind": "answer",
+   "question": "Why did Bingley leave Netherfield?",
+   "reference": "He went to London, and his sisters and Darcy kept him there, away from Jane.",
+   "horizon": 308407,
+   "horizon_title": "CHAPTER XXIX.",
+   "answers": {
+    "alone": {
+     "text": "In \"Pride and Prejudice,\" Mr. Bingley leaves Netherfield primarily because of the influence of his friend, Mr. Darcy, who discourages Bingley from pursuing Jane.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1395.6456184387207
+    },
+    "whole_book": {
+     "text": "Bingley left Netherfield because he and his party decided to go to town without any intention of returning, as mentioned in Chapter XXI.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1508.9881420135498
+    },
+    "margin_no_guard": {
+     "text": "Mr. Bingley left Netherfield because the whole party, including him, had left by that time and were on their way to town with no intention of coming back again. This information comes from Jane's letter to Elizabeth in Chapter XXI.",
+     "withheld": false,
+     "judged": false,
+     "ms": 2492.9447174072266
+    },
+    "margin": {
+     "text": "Mr. Bingley left Netherfield because the whole party, including him, had left by the time Jane received her letter and were on their way to town without any intention of coming back again.",
+     "withheld": false,
+     "judged": false,
+     "ms": 1466.6166305541992
+    }
+   }
+  }
+ ]
+}

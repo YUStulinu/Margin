@@ -1,0 +1,50 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  dotnet:
+    # The reader: EPUB parsing (a built test book and the five Project Gutenberg books), pagination,
+    # the SQLite library (horizon, notes, SM-2 cards) and the companion client. Warnings are errors.
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: 10.0.x
+      - run: dotnet build Margin.slnx -c Release
+      - run: dotnet test tests/Margin.Tests -c Release --no-build
+
+  service:
+    # The companion: nothing past the horizon in any prompt, search, summary, character map or
+    # vocabulary (property tests over the five books at many horizons), the guard, the HTTP API.
+    # The language model is a recorder here; the embeddings are real (bge-small, on the CPU).
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: 10.0.x
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.14"
+      - uses: actions/cache@v5
+        with:
+          path: ~/.cache/huggingface
+          key: hf-bge-small-en-v1.5
+      - name: Books with positions (exported by the C# side, as the app sends them)
+        run: bash scripts/export-books.sh
+      - name: Tests
+        working-directory: service
+        run: |
+          pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cpu
+          pip install sentence-transformers==6.2.0 transformers==5.22.0 numpy==2.5.4 wordfreq==3.1.1 fastapi==0.162.0 uvicorn==0.54.0 httpx==0.28.1 pytest==9.2.0
+          python -m pytest -q
+
+# The companion's evaluation needs Qwen2.5-7B and a GPU, so it runs locally: see README.md, "Results".

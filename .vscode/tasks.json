@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "fetch dependencies", "type": "shell", "command": "bash scripts/fetch-deps.sh --llm", "problemMatcher": [] },
+    { "label": "build", "type": "shell", "command": "dotnet build Margin.slnx -c Release", "group": "build", "problemMatcher": ["$msCompile"] },
+    { "label": "run the reader", "type": "shell", "command": "dotnet run --project src/Margin.App -c Release", "problemMatcher": [] },
+    { "label": "run the companion service", "type": "shell", "command": ".venv/Scripts/python -m margin_service.server", "options": { "cwd": "${workspaceFolder}/service" }, "isBackground": true, "problemMatcher": [] },
+    { "label": "C# tests", "type": "shell", "command": "dotnet test tests/Margin.Tests -c Release", "group": "test", "problemMatcher": ["$msCompile"] },
+    { "label": "Python tests", "type": "shell", "command": ".venv/Scripts/python -m pytest -q", "options": { "cwd": "${workspaceFolder}/service" }, "group": "test", "problemMatcher": [] },
+    { "label": "export books for the service", "type": "shell", "command": "bash scripts/export-books.sh", "problemMatcher": [] }
+  ]
+}

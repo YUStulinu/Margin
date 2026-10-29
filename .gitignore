@@ -1,0 +1,17 @@
+bin/
+obj/
+*.user
+.vs/
+
+# Downloaded and generated
+/third_party/
+/models/*.gguf
+/data/json/
+/data/service/
+/data/*.log
+/data/*.done
+/data/answers.txt
+/data/companion-v1.json
+service/.venv/
+__pycache__/
+*.pyc
